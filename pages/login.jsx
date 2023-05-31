@@ -28,8 +28,7 @@ const Login = () => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium leading-6 text-gray-900"
-                >
+                  className="block text-sm font-medium leading-6 text-gray-900">
                   Email address
                 </label>
                 <div className="mt-2">
@@ -49,15 +48,13 @@ const Login = () => {
                 <div className="flex items-center justify-between">
                   <label
                     htmlFor="password"
-                    className="block text-sm font-medium leading-6 text-gray-900"
-                  >
+                    className="block text-sm font-medium leading-6 text-gray-900">
                     Password
                   </label>
                   <div className="text-sm">
                     <a
                       href="#"
-                      className="font-semibold text-indigo-600 hover:text-indigo-500"
-                    >
+                      className="font-semibold text-indigo-600 hover:text-indigo-500">
                       Forgot password?
                     </a>
                   </div>
@@ -78,8 +75,7 @@ const Login = () => {
               <div>
                 <button
                   type="submit"
-                  className="flex w-full mt-9 justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-gray-300 shadow-sm hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
+                  className="flex w-full mt-9 justify-center rounded-md bg-indigo-600 px-3 py-3 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-gray-300 shadow-sm hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                   Login
                 </button>
                 <div className="flex flex-row justify-center item-center mt-8">
@@ -91,9 +87,8 @@ const Login = () => {
             </form>
             <button
               type="submit"
-              className="flex w-full mt-5 justify-center item-center gap-4 rounded-md bg-indigo-00 px-3 py-2 text-sm font-semibold leading-6 text-gray-400 ring-1 ring-inset ring-gray-300 shadow-sm hover:bg-indigo-100 hover:text-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              onClick={handleGoogleSignIn}
-            >
+              className="flex w-full mt-5 justify-center item-center gap-4 rounded-md bg-indigo-00 px-3 py-3 text-sm font-semibold leading-6 text-gray-400 ring-1 ring-inset ring-gray-300 shadow-sm hover:bg-indigo-100 hover:text-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              onClick={handleGoogleSignIn}>
               <p>Sign in with Google</p>
               <Image
                 src="https://www.vectorlogo.zone/logos/google/google-icon.svg"
@@ -104,8 +99,7 @@ const Login = () => {
             </button>
             <button
               type="submit"
-              className="flex w-full mt-5 justify-center item-center gap-4 rounded-md bg-indigo-00 px-3 py-2 text-sm font-semibold leading-6 text-gray-400 ring-1 ring-inset ring-gray-300 shadow-sm hover:bg-indigo-100 hover:text-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
+              className="flex w-full mt-5 justify-center item-center gap-4 rounded-md bg-indigo-00 px-3 py-3 text-sm font-semibold leading-6 text-gray-400 ring-1 ring-inset ring-gray-300 shadow-sm hover:bg-indigo-100 hover:text-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
               <p>Sign in with GitHub</p>
               <Image
                 src={GiHubLogo}
@@ -119,8 +113,7 @@ const Login = () => {
               Don't hava account yet?{" "}
               <Link
                 href="/register"
-                className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
-              >
+                className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
                 {" "}
                 Sign Up
               </Link>

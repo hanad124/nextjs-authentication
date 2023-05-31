@@ -194,15 +194,12 @@ const Authorized = ({ session }) => {
   async function handleGoogleSignOut() {
     signOut({ callbackUrl: "http://localhost:3000/login" });
     // ghdffd
-
-
-    
   }
 
   return (
     <div className="flex item-center justify-center h-full w-full p-20 bg-white">
       <div>
-        <div className="bg-white shadow-lg rounded-lg overflow-hidden w-80">
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden w-80 ">
           <div className="relative flex items-center justify-center h-40">
             <img
               className="absolute inset-0 h-full w-full object-cover rounded-t-lg"
@@ -220,18 +217,18 @@ const Authorized = ({ session }) => {
             </h2>
             <p className="text-gray-600 text-sm">{session.user.email}</p>
           </div>
-          <div className="px-4 py-2 flex justify-end">
+          <div className="px-4 py-2 flex justify-between mt-6">
             <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75">
               Follow{" "}
             </button>
+            <Link href={""}>
+              <button
+                className="logout-btn bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                onClick={handleGoogleSignOut}>
+                Logout
+              </button>
+            </Link>
           </div>
-          <Link href={""}>
-            <button
-              className="mt-4 bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
-              onClick={handleGoogleSignOut}>
-              Logout
-            </button>
-          </Link>
         </div>
       </div>
     </div>

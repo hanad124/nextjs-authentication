@@ -76,7 +76,7 @@ const Register = () => {
                 <div>
                   <button
                     type="submit"
-                    className="flex w-full mt-9 justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-gray-300 shadow-sm hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="flex w-full mt-9 justify-center rounded-md bg-indigo-600 px-3 py-3 text-sm font-semibold leading-6 text-white ring-1 ring-inset ring-gray-300 shadow-sm hover:bg-indigo-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     Sign Up
                   </button>
